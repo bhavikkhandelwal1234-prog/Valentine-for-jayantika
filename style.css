@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(135deg, #ffd6e8, #ffeef5);
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ff2f92;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 35px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#yes {
+  background-color: #ff2f92;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+#no {
+  background-color: #ddd;
+  transition: transform 0.3s ease;
+}
