@@ -11,6 +11,7 @@ body {
 
 .container {
   text-align: center;
+  padding: 20px;
 }
 
 h1 {
@@ -27,7 +28,7 @@ button {
   padding: 15px 35px;
   font-size: 18px;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
   cursor: pointer;
 }
 
@@ -40,4 +41,10 @@ button {
 #no {
   background-color: #ddd;
   transition: transform 0.3s ease;
+}
+
+.hint {
+  margin-top: 15px;
+  color: #777;
+  font-size: 0.9rem;
 }
